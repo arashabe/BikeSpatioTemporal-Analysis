@@ -16,14 +16,31 @@ This project analyzes Washington, DC’s bike-sharing system using spatio-tempor
 - **Tools**: Implemented in **MATLAB (D-STEM v2)** for modeling, validated via cross-validation.  
 
 ### Data Exploration
-![Hourly Rentals](images/Hourly-Bike-Rentals.png)  
-*Figure 2: Hourly bike rental patterns showing peak commuting times*
-  - ![Daily Rentals](images/Distribution-of-Bike-Rentals-Hour.png)  
-    *Figure 3: Distribution of rentals across hours of the day*
-  - ![Monthly Trends](images/Distribution-Bike-Rentals-Months.png)  
-    *Figure 4: Monthly usage variations across 2023*
-  - ![Seasonal Trends](images/Distribution-Bike-Rentals-Seasons.png)  
-    *Figure 5: Comparative demand across seasons*
+
+  ### Hourly Rentals
+  <br>
+  <img src="images/Hourly-Bike-Rentals.png" alt="Hourly Rentals" width="500"> 
+  <br> 
+  Figure 1: Distribution of rentals across hours of the day.
+
+  ### Daily Rentals
+  <br>
+  <img src="images/Distribution-of-Bike-Rentals-Hour.png" alt="Daily Rentals" width="500"> 
+  <br> 
+  Figure 2: Distribution of rentals across hours of the day.
+
+  ### Monthly Trends
+  <br>
+  <img src="images/Distribution-Bike-Rentals-Months.png" alt="Monthly Trends" width="500">  
+  <br>
+  Figure 3: Monthly usage variations across 2023.
+
+  ### Seasonal Trends
+  <br>
+  <img src="images/Distribution-Bike-Rentals-Seasons.png" alt="Seasonal Trends" width="500"> 
+  <br> 
+  Figure 4: Comparative demand across seasons.
+
 
 ## **Key Findings**  
 - **Temperature, precipitation, and UV index** are key demand predictors.  
