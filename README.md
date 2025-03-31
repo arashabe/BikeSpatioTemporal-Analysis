@@ -6,13 +6,27 @@ This project analyzes Washington, DC’s bike-sharing system using spatio-tempor
 ## **Objectives**  
 - Investigate how weather and time variables influence bike-sharing demand.  
 - Compare **Dynamic Coregionalization Model (DCM)** and **Hidden Dynamic Geostatistical Model (HDGM)** for predictive accuracy.  
-- Propose data-driven strategies to optimize bike allocation and service efficiency.  
+- Propose data-driven strategies to optimize bike allocation and service efficiency. 
+
+- The key questions are:
+
+    - How do weather and events (like holidays) affect bike usage?
+
+    - Which spatio-temporal model (DCM or HDGM) predicts bike usage more accurately? 
 
 ## **Methodology**  
 - **Data Preprocessing & EDA**: Cleaned and analyzed data using **Python** (Pandas, NumPy, Matplotlib/Seaborn).  
 - **Modeling**:  
-  - **DCM**: Hierarchical model capturing spatial-temporal dependencies.  
-  - **HDGM**: Latent process model for dynamic geospatial patterns.  
+  - **DCM**: 
+      - Hierarchical model capturing spatial-temporal dependencies. 
+      - Accounts for both spatial and temporal correlations.
+      - Uses two latent components: one for spatial dependencies w(s,t) and one for temporal dynamics z(t).
+      - More complex but flexible. 
+  - **HDGM**: 
+      - Latent process model for dynamic geospatial patterns.  
+      - Simpler, with only one latent component z(s,t) for spatio-temporal dynamics.
+      - Less prone to overfitting.
+
 - **Tools**: Implemented in **MATLAB (D-STEM v2)** for modeling, validated via cross-validation.  
 
 ### Data Exploration
